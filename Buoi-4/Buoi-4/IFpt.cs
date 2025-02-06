@@ -8,5 +8,6 @@ namespace Buoi_4
 {
     internal interface IFpt
     {
+        void study() { }
     }
 }

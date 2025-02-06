@@ -8,5 +8,7 @@ namespace Buoi_4
 {
     internal interface IPerson
     {
+         void study() { }
+        void eat() { }
     }
 }
