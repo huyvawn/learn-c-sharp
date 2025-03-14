@@ -83,14 +83,14 @@ class ExchangeAccount : Account
     }
 }
 
-class Program
+class Bai1
 {
-    static void Main()
+    static void bai1Main()
     {
         Console.WriteLine("Select account type: 1. Normal Account  2. Exchange Account");
         int choice = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Enter initial amount: ");
+        Console.Write("Enter initial amount (For normal account: use VND. While exchange account use USD): ");
         decimal initialAmount = Convert.ToDecimal(Console.ReadLine());
         decimal exchangeRate = 25000;
         Account account;
